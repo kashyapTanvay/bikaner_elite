@@ -1,0 +1,82 @@
+####################################
+# GLOBAL
+####################################
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.bak
+
+####################################
+# ENV FILES (CRITICAL)
+####################################
+.env
+.env.*
+!.env.example
+
+####################################
+# NODE / NPM
+####################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+####################################
+# TYPESCRIPT
+####################################
+*.tsbuildinfo
+
+####################################
+# FRONTEND (VITE + REACT)
+####################################
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.cache/
+frontend/.env
+frontend/.env.*
+frontend/.eslintcache
+
+####################################
+# BACKEND (NODE + EXPRESS + LAMBDA)
+####################################
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/.serverless/
+backend/.env
+backend/.env.*
+backend/coverage/
+
+####################################
+# AWS / SERVERLESS
+####################################
+.serverless/
+.aws/
+.aws-sam/
+.sam/
+amplify/.config/local-*
+amplify/.local.env.json
+
+####################################
+# IDEs / EDITORS
+####################################
+.vscode/
+.idea/
+*.iml
+
+####################################
+# TESTING
+####################################
+coverage/
+.nyc_output/
+
+####################################
+# MISC
+####################################
+*.tgz
+*.zip
