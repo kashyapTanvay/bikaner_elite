@@ -10,7 +10,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     // Simulate loading time
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 300);
 
     return () => clearTimeout(timer);
   }, []);

@@ -1,0 +1,13 @@
+.celebrate {
+  padding: 5rem 1rem;
+  background: url("https://images.unsplash.com/photo-1521305916504-4a1121188589")
+    center/cover;
+  color: white;
+  text-align: center;
+}
+
+button {
+  background: #c62828;
+  border: none;
+  padding: 12px 30px;
+}

@@ -1,0 +1,29 @@
+.section {
+  padding: 4rem 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+button {
+  margin-top: 0.5rem;
+  background: #c62828;
+  color: white;
+  border: none;
+  padding: 8px;
+}

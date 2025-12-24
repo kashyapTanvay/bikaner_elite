@@ -1,0 +1,15 @@
+.reviews {
+  padding: 4rem 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.card {
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+}
